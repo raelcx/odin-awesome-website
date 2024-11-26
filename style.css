@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.logo,
+.title {
+    color: #f9faf8;
+}
+
+ul,
+.description {
+    color: #e5e7eb;
+}
+
+.header-container {
+    display: flex;
+    height: 550px;
+    background-color: #1F2937;
+    padding: 20px 250px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    color: #e5e7eb;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 22px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.hero {
+    margin-bottom: 80px;
+    display: flex;
+    gap: 100px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+
+.hero div {
+    flex: 1;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.description {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.signup {
+  background-color: #3882f6;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  height: 40px;
+  width: 150px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.signup:hover,
+.signup:focus {
+  background-color: #619bf7;
+}
+
+img {
+    max-width: 100%;
+    min-width: 10%;
+    height: auto;
+}
+
+a { text-decoration: none; color: #e5e7eb;}
+a:visited { text-decoration: none; color: #e5e7eb;}
+a:hover { text-decoration: none; color: #e5e7eb;}
+a:focus { text-decoration: none; color: #e5e7eb;}
+a:hover, a:active { text-decoration: none; color: #e5e7eb;}
